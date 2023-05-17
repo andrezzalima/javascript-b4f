@@ -1,0 +1,6 @@
+function calculaAreaSuperficieOctaedro(aresta) {
+    // Escreve aqui o teu código
+    let triangulo = (Math.sqrt(3)*aresta**2)/4
+    return Math.round(triangulo*8)
+
+}
